@@ -3,9 +3,9 @@ message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Chiffoleau"
   given-names: "Floriane"
-  orcid: ""
+  #orcid: ""
 title: "dahncorpus"
 version: 1.0.0
-doi: 
+doi: 10.5281/zenodo.5911868
 date-released: 2021-03-25
 url: "https://github.com/HTR-United/dahncorpus"
