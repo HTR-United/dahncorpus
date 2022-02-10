@@ -1,5 +1,5 @@
 schema: https://htr-united.github.io/schema/2021-10-15/schema.json
-title: dahncorpus
+title: DAHN Corpus
 url: https://github.com/HTR-United/dahncorpus
 project-name: DAHN
 project-website: https://digitalintellectuals.hypotheses.org/category/dahn
@@ -9,7 +9,7 @@ authors:
       roles:
       - 'project-manager'
       - 'aligner'
-description: Ground Truth dataset for French 20th typewritten OCR
+description: OCR ground Truth dataset based on French 20th typewritten letters
 license:
     - url: https://creativecommons.org/licenses/by/4.0/
       name: CC-BY 4.0
