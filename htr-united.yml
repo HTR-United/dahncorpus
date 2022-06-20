@@ -17,14 +17,16 @@ format: Alto-XML
 script:
 - iso: Latn
 volume:
-- count: 527
-  metric: pages
-- count: 12482
-  metric: lines
-- count: 546
-  metric: regions
-- count: 472992
-  metric: characters
+- metric: characters
+  count: 1210754
+- metric: files
+  count: 546
+- metric: lines
+  count: 12482
+- metric: pages
+  count: 527
+- metric: regions
+  count: 546
 language:
 - fra
 time:
@@ -35,3 +37,47 @@ hands:
   precision: exact
 script-type: only-typed
 production-software: eScriptorium + Kraken
+characters:
+  mode: NFD
+  members:
+  - e
+  - t
+  - a
+  - /
+  - c
+  - '0'
+  - n
+  - r
+  - m
+  - h
+  - p
+  - s
+  - o
+  - g
+  - '7'
+  - '5'
+  - '9'
+  - f
+  - '1'
+  - E
+  - .
+  - i
+  - '-'
+  - '2'
+  - d
+  - <
+  - l
+  - '{'
+  - ':'
+  - P
+  - A
+  - G
+  - '}'
+  - U
+  - x
+  - '>'
+  - '8'
+  - '4'
+  - b
+  - '6'
+  - '3'
