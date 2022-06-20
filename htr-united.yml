@@ -1,30 +1,30 @@
-schema: https://htr-united.github.io/schema/2021-10-15/schema.json
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
 title: DAHN Corpus
 url: https://github.com/HTR-United/dahncorpus
 project-name: DAHN
 project-website: https://digitalintellectuals.hypotheses.org/category/dahn
 authors:
-    - surname: Floriane
-      name: Chiffoleau
-      roles:
-      - 'project-manager'
-      - 'aligner'
+- surname: Floriane
+  name: Chiffoleau
+  roles:
+  - project-manager
+  - aligner
 description: OCR ground Truth dataset based on French 20th typewritten letters
 license:
-    - url: https://creativecommons.org/licenses/by/4.0/
-      name: CC-BY 4.0
+- url: https://creativecommons.org/licenses/by/4.0/
+  name: CC-BY 4.0
 format: Alto-XML
 script:
-    - Latn
+- iso: Latn
 volume:
-    - count: 527
-      metric: pages
-    - count: 12482
-      metric: lines
-    - count: 546
-      metric: regions
-    - count: 472992
-      metric: characters
+- count: 527
+  metric: pages
+- count: 12482
+  metric: lines
+- count: 546
+  metric: regions
+- count: 472992
+  metric: characters
 language:
 - fra
 time:
@@ -34,3 +34,4 @@ hands:
   count: less-than-11
   precision: exact
 script-type: only-typed
+production-software: eScriptorium + Kraken

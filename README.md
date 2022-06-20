@@ -1,8 +1,7 @@
 [![CC BY 4.0][cc-by-shield]][cc-by] [![DOI](https://zenodo.org/badge/351362868.svg)](https://zenodo.org/badge/latestdoi/351362868)
 
 
-
-![Lines Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/FloChiff/40179e12e6f6f38589face8ee552973f/raw/dahn_lines.json) ![Chars Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/FloChiff/40179e12e6f6f38589face8ee552973f/raw/dahn_chars.json) ![Region Badges](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/FloChiff/40179e12e6f6f38589face8ee552973f/raw/dahn_regions.json)
+![characters badge](badges/characters.svg) ![regions badge](badges/regions.svg) ![lines badge](badges/lines.svg) ![files badge](badges/files.svg) 
 
 # DAHN Corpus
 ## Description
