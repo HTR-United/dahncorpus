@@ -1,4 +1,4 @@
-# Images from the folder "Newdata"
+# Images from the folder "batch-02"
 
 | Letter | Number of pages | Link NAKALA |
 | - | - | - |

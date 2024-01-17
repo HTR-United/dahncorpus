@@ -1,4 +1,4 @@
-# Images from the folder "Segdata"
+# Images from the folder "batch-00"
 
 | Page | Link NAKALA |
 | - | - |

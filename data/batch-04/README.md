@@ -1,4 +1,4 @@
-# Images from the folder "Extra_data"
+# Images from the folder "batch-04"
 
 | Page | Link NAKALA |
 | - | - |

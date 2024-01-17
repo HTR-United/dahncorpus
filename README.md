@@ -12,15 +12,15 @@ Ground Truth dataset for French 20th typewritten OCR
 
 | # | name | nb of images | GT for segmenter? | GT for recognizer? | description |
 | --- | :---- | :---: | :---: | :---: | :---: |
-| 1 | seg_data | (48) | y | n | Manual segmentation on pages with straight and regular lines |
-| 2 | alto | (84) | y | y | Manual segmentation and complete transcription of letters. The letters sometimes differ in quality, writing colors, etc. |
-| 3 | newdata | (59) | y | y | Long letters, many lines per page, mostly straigt lines but also narrow tight lines. Approximatively ten letters with handwritten texts. |
-| 4 | extra_data | (97) | n | y | Segmentation and transcription of chunks of texts or unique words to help recognition form specificities: capital letters, numbers, titles, recurring elements, handwritten elements, narrow tight parts of texts |
-| 5 | data | (258) | y | y | Long letters, many lines per page, mostly straight lines but also narrow tight lines. Several pages contain lists, tables and many capital letters words. |
+| 0 | batch-00 | (48) | y | n | Manual segmentation on pages with straight and regular lines |
+| 1 | batch-01 | (258) | y | y | Long letters, many lines per page, mostly straight lines but also narrow tight lines. Several pages contain lists, tables and many capital letters words. |
+| 2 | batch-02 | (59) | y | y | Long letters, many lines per page, mostly straigt lines but also narrow tight lines. Approximatively ten letters with handwritten texts. |
+| 3 | batch-03 | (84) | y | y | Manual segmentation and complete transcription of letters. The letters sometimes differ in quality, writing colors, etc. |
+| 4 | batch-04 | (97) | n | y | Segmentation and transcription of chunks of texts or unique words to help recognition form specificities: capital letters, numbers, titles, recurring elements, handwritten elements, narrow tight parts of texts |
 
-*As there are only made for segmentation, some images/transcriptions from the seg\_data corpus are common with some elements founds in other corpus, but the `CONTENT` of each tag should be empty for the ALTO/PAGE XML of the seg\_data corpus.*
+*As there are only made for segmentation, some images/transcriptions from the "batch-00" are common with some elements founds in other corpus, but the `CONTENT` of each tag should be empty for the ALTO/PAGE XML of the "batch-00".*
 
-*As it is made to train the transcription model on peculiar characters rendition, some images/transcriptions from the extra\_data corpus are common with the other corpus, but the content of the XML files will differ because one will only transcribe special parts while the other will have the whole text transcribed.*
+*As it is made to train the transcription model on peculiar characters rendition, some images/transcriptions from the "batch-04" corpus are common with the other corpus, but the content of the XML files will differ because one will only transcribe special parts while the other will have the whole text transcribed.*
 
 ## Images
 The training has been done with images digitized by the Archives départementales de la Sarthe (where the collection is kept), and then uploaded in NAKALA, which is the IIIF server used for the project that uses this corpus.  
