@@ -37,7 +37,7 @@ jobs:
           pip install htr-united-metadata-generator htruc anybadge
       - name: Run Report
         run: |
-          humGenerator --chars -n NFD --parse alto --group ./data/*/alto/*.xml --github-envs --to-json updated_metrics.json
+          humGenerator --chars -n NFD --parse alto --group ./data/**/alto/*.xml --github-envs --to-json updated_metrics.json
           cat envs.txt >> $GITHUB_ENV
       - name: Get HTR United Badge Template
         if: github.ref == 'refs/heads/main'
@@ -78,7 +78,7 @@ jobs:
           pip install chocomufin
       - name: Run ChocoMufin
         run: |
-          chocomufin generate table.csv ./data/*/alto/*.xml
+          chocomufin generate table.csv ./data/**/alto/*.xml
           cat table.csv
   HTRVX:
     runs-on: ubuntu-latest
@@ -94,4 +94,4 @@ jobs:
           pip install htrvx
       - name: Run HTRVX
         run: |
-          htrvx --verbose --group --format alto --check-empty --xsd ./data/*/alto/*.xml
+          htrvx --verbose --group --format alto --check-empty --xsd ./data/**/alto/*.xml
